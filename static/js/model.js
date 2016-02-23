@@ -83,6 +83,6 @@ EH.OpenSource.Model = Backbone.Model.extend({
      * @return {String}  Url string
      */
     url: function() {
-        return '/githubio/static/js/data/data.json';
+        return '/static/js/data/data.json';
     }
 });
