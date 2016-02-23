@@ -1,0 +1,174 @@
+{
+    "version": "1.0.0",
+    "projects": [
+        {
+            "title": "Benchmarkio",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A library for benchmarking different message brokers; package includes code for Java clients.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/benchmarkio",
+                "name": "benchmarkio",
+                "path": "/eHarmony/benchmarkio",
+                "url": "https://github.com/eHarmony/benchmarkio"
+            }
+        },
+        {
+            "title": "Aloha",
+            "platform": "backend",
+            "language": "Scala",
+            "description": "The Aloha libraries provide implementations of machine learning models used by eHarmony, Inc.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/aloha",
+                "name": "aloha",
+                "path": "/eHarmony/aloha",
+                "url": "https://github.com/eHarmony/aloha"
+            }
+        },
+        {
+            "title": "iUnits",
+            "platform": "ios",
+            "language": "Objective-C",
+            "description": "A custom solution built to extend Apple's XCTest and offer improved unit testing capabilities.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": null
+        },
+        {
+            "title": "eH Translate",
+            "platform": "web",
+            "language": "JavaScript",
+            "description": "Node.js localization system for translating languages. Text extends from base language to country to sub-locale.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": null
+        },
+        {
+            "title": "SwiftNav",
+            "platform": "ios",
+            "language": "Swift",
+            "description": "eHarmony's custom solution to organize and simplify the iOS-style fixed footer navigation.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": null
+        },
+        {
+            "title": "DroidBuildr",
+            "platform": "android",
+            "language": "Java",
+            "description": "A custom build tool for native Android apps. Helps reduce common boiler-plate setup logic.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": null
+        },
+        {
+            "title": "jTouch",
+            "platform": "web",
+            "language": "JavaScript",
+            "description": "JavaScript library for registering touch events; supports common events like Swipe, Tap, and Drag.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": null
+        },
+        {
+            "title": "Liquid Manifest",
+            "platform": "android",
+            "language": "Java",
+            "description": "Open-source software for adding detailed logging and debugging to your native Android app title.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": null
+        },
+        {
+            "title": "Face Parts Service",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A RESTful API for identifying and segmenting human faces from sampled images.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/face-parts-service",
+                "name": "face-parts-service",
+                "path": "/eHarmony/face-parts-service",
+                "url": "https://github.com/eHarmony/face-parts-service"
+            }
+        },
+        {
+            "title": "Seeking",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A library for generically building and executing type safe queries against different data stores.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/seeking",
+                "name": "seeking",
+                "path": "/eHarmony/seeking",
+                "url": "https://github.com/eHarmony/seeking"
+            }
+        },
+        {
+            "title": "eH Chat UI",
+            "platform": "ios",
+            "language": "Objective-C",
+            "description": "A plug-n-play XMPP chat client for communication; allow your users to communicate in real-time.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": null
+        },
+        {
+            "title": "Manifestor",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A custom library which contains common code for enhancing RESTful Services with Manifest Data.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/manifestor",
+                "name": "manifestor",
+                "path": "/eHarmony/manifestor",
+                "url": "https://github.com/eHarmony/manifestor"
+            }
+        }
+    ]
+}

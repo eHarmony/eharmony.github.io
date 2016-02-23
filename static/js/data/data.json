@@ -1,0 +1,90 @@
+{
+    "version": "1.0.0",
+    "projects": [
+        {
+            "title": "Benchmarkio",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A library for benchmarking different message brokers; package includes code for Java clients.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/benchmarkio",
+                "name": "benchmarkio",
+                "path": "/eHarmony/benchmarkio",
+                "url": "https://github.com/eHarmony/benchmarkio"
+            }
+        },
+        {
+            "title": "Aloha",
+            "platform": "backend",
+            "language": "Scala",
+            "description": "The Aloha libraries provide implementations of machine learning models used by eHarmony, Inc.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/aloha",
+                "name": "aloha",
+                "path": "/eHarmony/aloha",
+                "url": "https://github.com/eHarmony/aloha"
+            }
+        },
+        {
+            "title": "Face Parts Service",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A RESTful API for identifying and segmenting human faces from sampled images.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/face-parts-service",
+                "name": "face-parts-service",
+                "path": "/eHarmony/face-parts-service",
+                "url": "https://github.com/eHarmony/face-parts-service"
+            }
+        },
+        {
+            "title": "Seeking",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A library for generically building and executing type safe queries against different data stores.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/seeking",
+                "name": "seeking",
+                "path": "/eHarmony/seeking",
+                "url": "https://github.com/eHarmony/seeking"
+            }
+        },
+        {
+            "title": "Manifestor",
+            "platform": "backend",
+            "language": "Java",
+            "description": "A custom library which contains common code for enhancing RESTful Services with Manifest Data.",
+            "tags": [
+                "xxx",
+                "xxx",
+                "xxx"
+            ],
+            "github": {
+                "api": "https://api.github.com/repos/eHarmony/manifestor",
+                "name": "manifestor",
+                "path": "/eHarmony/manifestor",
+                "url": "https://github.com/eHarmony/manifestor"
+            }
+        }
+    ]
+}
