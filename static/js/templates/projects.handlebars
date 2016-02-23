@@ -1,0 +1,18 @@
+<ul>
+    {{#each projects}}
+        <li id="{{github.name}}" class="{{platform}}">
+            <figure></figure>
+            <section>
+                <aside>
+                    {{language}}
+                    <span class="stars"></span>
+                    <span class="forks"></span>
+                </aside>
+                <h1>{{{title}}}</h1>
+                <time class="updated"></time>
+                <main>{{{description}}}</main>
+                <a class="button alt" href="{{github.url}}" _target="blank">View on GitHub</a>
+            </section>
+        </li>
+    {{/each}}
+</ul>

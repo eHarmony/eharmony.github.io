@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+
+
+/*****************************************************
+*****   General Formatting   *************************
+*****************************************************/
+/* Reset HTML */
+a, abbr, address, area, article, aside, audio, b, base, bdi, bdo, blockquote, body, br, button, canvas, caption, cite, code, col, colgroup, data, datalist, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, head, header, hgroup, hr, html, i, iframe, img, input, ins, kbd, keygen, label, legend, li, link, main, map, mark, menu, menuitem, meta, meter, nav, noscript, object, ol, optgroup, option, output, p, param, pre, progress, q, rp, rt, ruby, s, samp, script, section, select, small, source, span, strong, style, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, title, tr, track, u, ul, var, video, wbr {-moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:0; box-sizing:border-box; font-size:1em; margin:0; padding:0; vertical-align:top;}
+
+/* Default HTML */
+html {font-size:0.625em;}
+body {color:#999; font-family:"helvetica",sans-serif; font-family:"proxima-nova",sans-serif; font-size:1.6rem; min-width:320px;}
+ol, ul {list-style:none;}
+h1, h2, h3, h4, h5, h6 {font-weight:400;}
+a, a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+img {border:0; display:block; max-width:100%;}
+main {display:block;}
+
+/* Buttons */
+button, a.button {background:#4395a8; border-radius:3px; color:#fff; cursor:pointer; font-size:1.8rem; height:40px; line-height:40px; padding:0 25px; text-align:center;}
+button:hover, a.button:hover {background:#185772; text-decoration:none;}
+button.alt, a.button.alt {background:transparent; border:1px solid #4395a8;}
+button.alt:hover, a.button.alt:hover {background:#4395a8; color:#fff;}
+
+/* Utility Classes */
+.hide {display:none!important;}
+.show {display:block!important;}
+.visible {visibility:visible!important;}
+.invisible {visibility:hidden!important;}
+
+
+
+/*****************************************************
+*****   Splash Intro   *******************************
+*****************************************************/
+#splash {background:url("../img/splash-bg.svg") no-repeat #388ea7; background-size:cover; color:#fff; display:table; overflow:hidden; padding:75px; position:relative; text-align:center; width:100%;}
+#splash:before {border:25px solid rgba(255,255,255,0.1); content:""; height:calc(100% - 50px); left:0; position:absolute; top:0; width:calc(100% - 50px);}
+#splash .text {display:table-cell; vertical-align:middle;}
+#splash .logo {background:url("../img/eh-logo.svg"); height:26px; margin:0 auto; width:126px;}
+#splash h1 {color:rgba(255,255,255,0.5); font-size:3.6rem; margin:25px 0 0; text-transform:uppercase;}
+#splash p {line-height:2.4rem; margin:25px auto 0; max-width:650px;}
+#splash .arrow {-webkit-transition:all 300ms ease; background:url("../img/splash-arrow.svg") no-repeat; cursor:pointer; height:40px; margin:40px auto 0; position:relative; transition:all 300ms ease; width:75px; z-index:1;}
+#splash .arrow:hover {-webkit-transform:scale(1.25); transform:scale(1.25);}
+
+
+
+/*****************************************************
+*****   Project Boxes   ******************************
+*****************************************************/
+#projects {background:#efefef; padding:0 0 25px 25px;}
+#projects ul:before, #projects ul:after {content:""; display:table;}
+#projects ul:after {clear:both;}
+
+/* Boxes */
+#projects li {background:#fff; border-radius:3px; box-shadow:0 2px 3px rgba(0,0,0,0.25); float:left; margin:25px 25px 0 0; overflow:hidden; padding:25px; width:calc(25% - 25px);}
+#projects li:before, #projects li:after {content:""; display:table;}
+#projects li:after {clear:both;}
+#projects figure {border-radius:50%; float:left; height:80px; width:80px;}
+#projects figure:before {background:url("../img/platform-icons.svg") no-repeat; content:""; display:block; height:50px; margin:15px; width:50px;}
+#projects section {float:right; width:calc(100% - 105px);}
+#projects aside {color:#ccc; font-size:1.2rem; font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#projects aside span {margin:0 0 0 10px; visibility:hidden;}
+#projects aside :before {background:url("../img/platform-icons.svg") no-repeat; content:""; display:inline-block; height:12px; margin:0 5px 0 0; width:12px;}
+#projects aside .stars:before {background-position:-250px -25px;}
+#projects aside .forks:before {background-position:-262px -25px; width:8px;}
+#projects h1 {font-family:"Georgia",serif; font-size:2.4rem; margin:10px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#projects time {display:block; color:#ccc; font-size:1.2rem; margin:5px 0 0; min-height:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#projects main {line-height:2rem; height:60px; margin:15px 0 0; overflow:hidden;}
+#projects a {display:block; margin:25px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%;}
+#projects a:before {background:url("../img/platform-icons.svg") no-repeat; border-radius:50%; content:""; display:inline-block; height:25px; margin:-3px 10px 0 0; width:25px; vertical-align:middle;}
+#projects a:hover:before {background-position:-250px 0!important;}
+
+/* Android */
+#projects .android figure {background:#9ab956;}
+#projects .android figure:before {background-position:0 0;}
+#projects .android h1 {color:#9ab956;}
+#projects .android a {border-color:#9ab956; color:#9ab956;}
+#projects .android a:before {background-position:-200px 0;}
+#projects .android a:hover {background:#9ab956; color:#fff;}
+
+/* Backend */
+#projects .backend figure {background:#c32b3e;}
+#projects .backend figure:before {background-position:-50px 0;}
+#projects .backend h1 {color:#c32b3e;}
+#projects .backend a {border-color:#c32b3e; color:#c32b3e;}
+#projects .backend a:before {background-position:-225px 0;}
+#projects .backend a:hover {background:#c32b3e; color:#fff;}
+
+/* iOS */
+#projects .ios figure {background:#b8e5f6;}
+#projects .ios figure:before {background-position:-150px 0;}
+#projects .ios h1 {color:#b8e5f6;}
+#projects .ios a {border-color:#b8e5f6; color:#b8e5f6;}
+#projects .ios a:before {background-position:-200px -25px;}
+#projects .ios a:hover {background:#b8e5f6; color:#fff;}
+
+/* Web */
+#projects .web figure {background:#f8b74c;}
+#projects .web figure:before {background-position:-100px 0;}
+#projects .web h1 {color:#f8b74c;}
+#projects .web a {border-color:#f8b74c; color:#f8b74c;}
+#projects .web a:before {background-position:-225px -25px;}
+#projects .web a:hover {background:#f8b74c; color:#fff;}
+
+
+
+/*****************************************************
+*****   Engineering Blog   ***************************
+*****************************************************/
+#blog {background:#fff; padding:50px 25px; text-align:center;}
+#blog h1 {color:#3c4648; font-family:"Georgia",serif; font-size:4.5rem;}
+#blog h2 {color:#328aa1; font-size:1.8rem; font-weight:700; line-height:2.4rem; margin:15px auto 0; max-width:600px; text-transform:uppercase;}
+#blog h3 {color:#328aa1; font-size:1.8rem; font-weight:700;}
+#blog h3:before {background:url("../img/blog-icon.png") no-repeat; content:""; display:block; height:45px; margin:25px auto 10px; width:70px;}
+#blog p {line-height:2.4rem; margin:25px auto 0; max-width:500px;}
+#blog button {display:block; margin:25px auto 0;}
+
+/* Social Icons */
+#blog .social {margin:50px 0 0;}
+#blog .social li {background:url("../img/social-icons.png") no-repeat; display:inline-block; height:54px; margin:0 6px; width:49px;}
+#blog .social li:hover {border-bottom:2px solid #2d8ca3;}
+#blog .social a {display:block; height:100%; width:100%;}
+#blog .social .facebook {background-position:0 0;}
+#blog .social .twitter {background-position:-49px 0;}
+#blog .social .linkedin {background-position:-147px 0;}
+#blog .social .stackoverflow {background-position:-196px 0;}
+#blog .social .glassdoor {background-position:-245px 0;}
+
+
+
+/*****************************************************
+*****   Footer Links   *******************************
+*****************************************************/
+#footer {background:#060607; color:#fff; font-size:1.2rem; padding:50px 25px 25px; text-align:center;}
+
+/* eH Links */
+#footer ul {display:inline-block; text-align:left; width:calc(17.5% - 4px);}
+#footer li {line-height:2.4rem;}
+#footer a {color:#fff;}
+
+/* Fineprint */
+#footer .fineprint {line-height:1.6rem; margin:75px 0 0;}
+#footer .fineprint:before, #footer .fineprint:after {content:""; display:table;}
+#footer .fineprint:after {clear:both;}
+#footer .copyright {float:left; text-align:left;}
+#footer .patent {float:right; text-align:right;}
+
+
+
+/*****************************************************
+*****   Animation   **********************************
+*****************************************************/
+/* Splash H1 */
+@keyframe splashH1 {
+    0% {}
+    100% {}
+}
+@-webkit-keyframe splashH1 {
+    0% {}
+    100% {}
+}
+
+
+
+/*****************************************************
+*****   Media Queries   ******************************
+*****************************************************/
+/* Desktop */
+@media only screen and (max-width:1600px) {
+    #projects li {width:calc(33.33% - 25px);}
+@media only screen and (max-width:1280px) {
+    #projects li {width:calc(50% - 25px);}
+}
+
+/* Tablet */
+@media only screen and (max-width:1024px) {
+
+}
+@media only screen and (max-width:768px) {
+    #projects li {width:calc(100% - 25px);}
+    #projects main {height:inherit;}
+}
+
+/* Mobile */
+@media only screen and (max-width:480px) {
+
+}
+@media only screen and (max-width:3200px) {
+
+}
+
+
