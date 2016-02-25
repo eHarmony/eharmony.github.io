@@ -115,7 +115,7 @@ button.alt:hover, a.button.alt:hover {background:#4395a8; color:#fff;}
 #blog h3 {color:#328aa1; font-size:1.8rem; font-weight:700;}
 #blog h3:before {background:url("../img/blog-icon.png") no-repeat; content:""; display:block; height:45px; margin:25px auto 10px; width:70px;}
 #blog p {line-height:2.4rem; margin:25px auto 0; max-width:500px;}
-#blog button {display:block; margin:25px auto 0;}
+#blog .button {display:block; margin:25px auto 0;}
 
 /* Social Icons */
 #blog .social {margin:50px 0 0;}
