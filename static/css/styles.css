@@ -152,15 +152,7 @@ button.alt:hover, a.button.alt:hover {background:#4395a8; color:#fff;}
 /*****************************************************
 *****   Animation   **********************************
 *****************************************************/
-/* Splash H1 */
-@keyframe splashH1 {
-    0% {}
-    100% {}
-}
-@-webkit-keyframe splashH1 {
-    0% {}
-    100% {}
-}
+/* TODO: need to animate splash image text */
 
 
 
@@ -169,8 +161,10 @@ button.alt:hover, a.button.alt:hover {background:#4395a8; color:#fff;}
 *****************************************************/
 /* Desktop */
 @media only screen and (max-width:1600px) {
+    /* Projects Boxes */
     #projects li {width:calc(33.33% - 25px);}
 @media only screen and (max-width:1280px) {
+    /* Projects Boxes */
     #projects li {width:calc(50% - 25px);}
 }
 
@@ -179,15 +173,23 @@ button.alt:hover, a.button.alt:hover {background:#4395a8; color:#fff;}
 
 }
 @media only screen and (max-width:768px) {
+    /* Project Boxes */
     #projects li {width:calc(100% - 25px);}
     #projects main {height:inherit;}
+
+    /* Footer Links */
+    #footer ul {width:calc(50% - 4px);}
+    #footer ul:nth-of-type(3),
+    #footer ul:nth-of-type(4),
+    #footer ul:nth-of-type(5) {display:none;}
 }
 
 /* Mobile */
 @media only screen and (max-width:480px) {
-
+    /* Footer Links */
+    #footer .patent {display:none;}
 }
-@media only screen and (max-width:3200px) {
+@media only screen and (max-width:320px) {
 
 }
 
