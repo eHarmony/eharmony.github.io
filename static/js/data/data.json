@@ -32,13 +32,13 @@
                 "api": "https://api.github.com/repos/eHarmony/aloha",
                 "name": "aloha",
                 "path": "/eHarmony/aloha",
-                "url": "https://github.com/eHarmony/aloha"
+                "url": "https://eharmony.github.io/aloha"
             }
         },
         {
             "title": "Face Parts Service",
             "platform": "backend",
-            "language": "Java",
+            "language": "C++",
             "description": "A RESTful API for identifying and segmenting human faces from sampled images.",
             "tags": [
                 "xxx",
@@ -85,6 +85,23 @@
                 "path": "/eHarmony/manifestor",
                 "url": "https://github.com/eHarmony/manifestor"
             }
+        },
+        {
+          "title": "Spotz",
+          "platform": "backend",
+          "language": "Scala",
+          "description": "A hyperparameter optimization framework written in Scala for use with Apache Spark.",
+          "tags": [
+              "xxx",
+              "xxx",
+              "xxx"
+          ],
+          "github": {
+              "api": "https://api.github.com/repos/eHarmony/spotz",
+              "name": "spotz",
+              "path": "/eHarmony/spotz",
+              "url": "https://github.com/eHarmony/spotz"
+          }
         }
     ]
 }
