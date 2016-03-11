@@ -20,7 +20,7 @@
         },
         {
             "title": "Aloha",
-            "platform": "backend",
+            "platform": "datascience",
             "language": "Scala",
             "description": "The Aloha libraries provide implementations of machine learning models used by eHarmony, Inc.",
             "tags": [
@@ -37,7 +37,7 @@
         },
         {
             "title": "Face Parts Service",
-            "platform": "backend",
+            "platform": "datascience",
             "language": "C++",
             "description": "A RESTful API for identifying and segmenting human faces from sampled images.",
             "tags": [
@@ -88,7 +88,7 @@
         },
         {
           "title": "Spotz",
-          "platform": "backend",
+          "platform": "datascience",
           "language": "Scala",
           "description": "A hyperparameter optimization framework written in Scala for use with Apache Spark.",
           "tags": [

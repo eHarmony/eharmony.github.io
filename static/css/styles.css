@@ -57,52 +57,61 @@ button.alt:hover, a.button.alt:hover {background:#4395a8; color:#fff;}
 #projects li {background:#fff; border-radius:3px; box-shadow:0 2px 3px rgba(0,0,0,0.25); float:left; margin:25px 25px 0 0; overflow:hidden; padding:25px; width:calc(25% - 25px);}
 #projects li:before, #projects li:after {content:""; display:table;}
 #projects li:after {clear:both;}
-#projects figure {border-radius:50%; float:left; height:80px; width:80px;}
+#projects figure {background-color:#999; border-radius:50%; float:left; height:80px; width:80px;}
 #projects figure:before {background:url("../img/platform-icons.svg") no-repeat; content:""; display:block; height:50px; margin:15px; width:50px;}
 #projects section {float:right; width:calc(100% - 105px);}
 #projects aside {color:#ccc; font-size:1.2rem; font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 #projects aside span {margin:0 0 0 10px; visibility:hidden;}
-#projects aside :before {background:url("../img/platform-icons.svg") no-repeat; content:""; display:inline-block; height:12px; margin:0 5px 0 0; width:12px;}
-#projects aside .stars:before {background-position:-250px -25px;}
-#projects aside .forks:before {background-position:-262px -25px; width:8px;}
-#projects h1 {font-family:"Georgia",serif; font-size:2.4rem; margin:10px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#projects aside :before {background:url("../img/platform-icons.svg") -50px 0 no-repeat; content:""; display:inline-block; height:12px; margin:0 5px 0 0; width:12px;}
+#projects aside .stars:before {background-position:-325px 0;}
+#projects aside .forks:before {background-position:-325px -12px; width:8px;}
+#projects h1 {color:#999; font-family:"Georgia",serif; font-size:2.4rem; margin:10px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 #projects time {display:block; color:#ccc; font-size:1.2rem; margin:5px 0 0; min-height:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 #projects main {line-height:2rem; height:60px; margin:15px 0 0; overflow:hidden;}
-#projects a {display:block; margin:25px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%;}
+#projects a {border-color:#999; color:#999;display:block; margin:25px 0 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%;}
 #projects a:before {background:url("../img/platform-icons.svg") no-repeat; border-radius:50%; content:""; display:inline-block; height:25px; margin:-3px 10px 0 0; width:25px; vertical-align:middle;}
-#projects a:hover:before {background-position:-250px 0!important;}
+#projects a:hover {background-color:#999; color:#fff!important;}
+#projects a:hover:before {background-position:-300px -25px!important;}
 
 /* Android */
-#projects .android figure {background:#9ab956;}
+#projects .android figure {background-color:#9ab956;}
 #projects .android figure:before {background-position:0 0;}
 #projects .android h1 {color:#9ab956;}
 #projects .android a {border-color:#9ab956; color:#9ab956;}
-#projects .android a:before {background-position:-200px 0;}
-#projects .android a:hover {background:#9ab956; color:#fff;}
+#projects .android a:before {background-position:-250px 0;}
+#projects .android a:hover {background-color:#9ab956;}
 
 /* Backend */
-#projects .backend figure {background:#c32b3e;}
+#projects .backend figure {background-color:#c32b3e;}
 #projects .backend figure:before {background-position:-50px 0;}
 #projects .backend h1 {color:#c32b3e;}
 #projects .backend a {border-color:#c32b3e; color:#c32b3e;}
-#projects .backend a:before {background-position:-225px 0;}
-#projects .backend a:hover {background:#c32b3e; color:#fff;}
+#projects .backend a:before {background-position:-275px 0;}
+#projects .backend a:hover {background-color:#c32b3e;}
+
+/* Data Science */
+#projects .datascience figure {background-color:#185772;}
+#projects .datascience figure:before {background-position:-200px 0;}
+#projects .datascience h1 {color:#185772;}
+#projects .datascience a {border-color:#185772; color:#185772;}
+#projects .datascience a:before {background-position:-300px 0;}
+#projects .datascience a:hover {background-color:#185772;}
 
 /* iOS */
-#projects .ios figure {background:#b8e5f6;}
+#projects .ios figure {background-color:#b8e5f6;}
 #projects .ios figure:before {background-position:-150px 0;}
 #projects .ios h1 {color:#b8e5f6;}
 #projects .ios a {border-color:#b8e5f6; color:#b8e5f6;}
-#projects .ios a:before {background-position:-200px -25px;}
-#projects .ios a:hover {background:#b8e5f6; color:#fff;}
+#projects .ios a:before {background-position:-250px -25px;}
+#projects .ios a:hover {background-color:#b8e5f6;}
 
 /* Web */
-#projects .web figure {background:#f8b74c;}
+#projects .web figure {background-color:#f8b74c;}
 #projects .web figure:before {background-position:-100px 0;}
 #projects .web h1 {color:#f8b74c;}
 #projects .web a {border-color:#f8b74c; color:#f8b74c;}
-#projects .web a:before {background-position:-225px -25px;}
-#projects .web a:hover {background:#f8b74c; color:#fff;}
+#projects .web a:before {background-position:-275px -25px;}
+#projects .web a:hover {background-color:#f8b74c;}
 
 
 
