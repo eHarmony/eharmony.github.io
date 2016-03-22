@@ -102,6 +102,23 @@
               "path": "/eHarmony/spotz",
               "url": "https://github.com/eHarmony/spotz"
           }
+        },
+        {
+          "title": "Pho",
+          "platform": "backend",
+          "language": "Java",
+          "description": "A library for building DSL-style type safe queries and executing against HBase using apache phoenix.",
+          "tags": [
+              "xxx",
+              "xxx",
+              "xxx"
+          ],
+          "github": {
+              "api": "https://api.github.com/repos/eHarmony/pho",
+              "name": "pho",
+              "path": "/eHarmony/pho",
+              "url": "https://github.com/eHarmony/pho"
+          }
         }
     ]
 }
